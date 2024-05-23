@@ -41,6 +41,7 @@
             <ComboBox x:Name="cbSistemas" Grid.Row="1" Margin="5 0" SelectionChanged="cbSistemas_SelectionChanged">
                 <ComboBoxItem>Sistema tegumentario</ComboBoxItem>
                 <ComboBoxItem>Sistema urinario</ComboBoxItem>
+                <ComboBoxItem>Sistema reproductor masculino</ComboBoxItem>
                 <!-- Agrega los demás sistemas aquí -->
             </ComboBox>
 

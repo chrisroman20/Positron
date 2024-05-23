@@ -78,6 +78,9 @@
     <Compile Include="CustomIcons\PackIconCustomIconsDataFactory.cs" />
     <Compile Include="CustomIcons\PackIconCustomIconsExtension.cs" />
     <Compile Include="CustomIcons\PackIconCustomIconsKind.cs" />
+    <Compile Include="UserControls\ucSistemaReproductorM.xaml.cs">
+      <DependentUpon>ucSistemaReproductorM.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\ucSistemaTegumentario.xaml.cs">
       <DependentUpon>ucSistemaTegumentario.xaml</DependentUpon>
     </Compile>
@@ -100,6 +103,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="UserControls\ucSistemaReproductorM.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="UserControls\ucSistemaTegumentario.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

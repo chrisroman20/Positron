@@ -2,6 +2,7 @@
 using System.Windows;
 using System.Windows.Controls;
 using Positron.UserControls;
+using WpfAppMahAppsIconPacks.UserControls;
 
 namespace Positron
 {
@@ -30,6 +31,11 @@ namespace Positron
                     ucSistemaUrinario sistemaUrinario = new ucSistemaUrinario();
                     sistemaUrinario.PartSelected += SistemaPartSelected;
                     contentControlSistema.Content = sistemaUrinario;
+                    break;
+                case "Sistema reproductor masculino":
+                    ucSistemaReproductorM sistemaReproductorM = new ucSistemaReproductorM();
+                    sistemaReproductorM.PartSelected += SistemaPartSelected;
+                    contentControlSistema.Content = sistemaReproductorM;
                     break;
                 default:
                     break;
