@@ -5,55 +5,31 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Positron.UserControls"
              mc:Ignorable="d">
-    <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="140*"/>
-            <ColumnDefinition Width="33*"/>
-            <ColumnDefinition Width="186*"/>
-            <ColumnDefinition Width="215*"/>
-            <ColumnDefinition Width="190*"/>
-        </Grid.ColumnDefinitions>
-        <Image x:Name="imageControl" Source="/Resources/Images/SistemaTegumentarioMejorada.png" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.ColumnSpan="5" Margin="15"/>
-        <Grid Grid.Column="0">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="187*"/>
-                <RowDefinition Height="43*"/>
-                <RowDefinition Height="289*"/>
-                <RowDefinition Height="51*"/>
-                <RowDefinition Height="30*"/>
-            </Grid.RowDefinitions>
-            <Label Content="Epidermis" Tag="Epidermis" MouseDown="Label_MouseDown" Cursor="Hand" FontWeight="DemiBold" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Grid.Row="1" FontSize="25"/>
-            <Label Content="Dermis" Tag="Dermis" MouseDown="Label_MouseDown" Cursor="Hand" FontWeight="DemiBold" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Grid.Row="2" FontSize="25"/>
-            <Label Content="Tejido subcutáneo" Tag="Tejido subcutáneo" MouseDown="Label_MouseDown" Cursor="Hand" FontWeight="DemiBold" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Grid.Row="3" FontSize="20"/>
-        </Grid>
+    <UserControl.Resources>
+        <Style TargetType="Label">
+            <Setter Property="FontWeight" Value="DemiBold"/>
+            <Setter Property="FontSize" Value="25"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Padding" Value="0"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <EventSetter Event="MouseDown" Handler="Label_MouseDown"/>
+        </Style>
+    </UserControl.Resources>
 
-        <Grid Grid.Column="2">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="29*"/>
-                <RowDefinition Height="13*"/>
-                <RowDefinition Height="108*"/>
-            </Grid.RowDefinitions>
-            <Label Content="Glándula sebácea" Tag="Glándula sebácea" MouseDown="Label_MouseDown" Cursor="Hand" FontWeight="DemiBold" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Grid.Row="1" FontSize="25"/>
-        </Grid>
+    <Grid Width="900">
 
-        <Grid Grid.Column="4">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="139*"/>
-                <RowDefinition Height="43*"/>
-                <RowDefinition Height="38*"/>
-                <RowDefinition Height="50*"/>
-                <RowDefinition Height="55*"/>
-                <RowDefinition Height="30*"/>
-                <RowDefinition Height="40*"/>
-                <RowDefinition Height="48*"/>
-                <RowDefinition Height="49*"/>
-                <RowDefinition Height="100*"/>
-            </Grid.RowDefinitions>
-            <Label Content="Tallo de cabello" Tag="Tallo de cabello" MouseDown="Label_MouseDown" Cursor="Hand" FontWeight="DemiBold" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Grid.Row="1" FontSize="25"/>
-            <Label Content="Melanocitos" Tag="Melanocitos" MouseDown="Label_MouseDown" Cursor="Hand" FontWeight="DemiBold" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Grid.Row="3" FontSize="25"/>
-            <Label Content="Músculo erector" Tag="Músculo erector" MouseDown="Label_MouseDown" Cursor="Hand" FontWeight="DemiBold" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Grid.Row="5" FontSize="25"/>
-            <Label Content="Bulbo capilar" Tag="Bulbo capilar" MouseDown="Label_MouseDown" Cursor="Hand" FontWeight="DemiBold" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Grid.Row="7" FontSize="25"/>
-            <Label Content="Vasos sanguíneos" Tag="Vasos sanguíneos" MouseDown="Label_MouseDown" Cursor="Hand" FontWeight="DemiBold" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Grid.Row="8" FontSize="25"/>
-        </Grid>
+        <Image x:Name="imageControl" Source="/Resources/Images/SistemaTegumentarioMejorada.png" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="50"/>
+
+        <Label Content="Epidermis" Tag="Epidermis" Margin="28,267,720,482" HorizontalContentAlignment="Right"/>
+        <Label Content="Dermis" Tag="Dermis" Margin="46,454,722,305" HorizontalContentAlignment="Right"/>
+        <Label Content="Tejido subcutáneo" Tag="Tejido subcutáneo" FontSize="19" Margin="-14,658,726,95" HorizontalContentAlignment="Right"/>
+
+        <Label Content="Glándula sebácea" Tag="Glándula sebácea" Margin="224,171,456,552" HorizontalContentAlignment="Center"/>
+        <Label Content="Tallo de cabello" Tag="Tallo de cabello" Margin="686,210,12,530"/>
+        <Label Content="Melanocitos" Tag="Melanocitos" Margin="684,302,20,439"/>
+        <Label Content="Músculo erector" Tag="Músculo erector" Margin="688,419,-20,316"/>
+        <Label Content="Bulbo capilar" Tag="Bulbo capilar" Margin="692,522,-12,222"/>
+        <Label Content="Vasos sanguíneos" Tag="Vasos sanguíneos" Margin="693,585,-5,156" />
     </Grid>
 </UserControl>

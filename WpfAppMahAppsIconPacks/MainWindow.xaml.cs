@@ -37,6 +37,16 @@ namespace Positron
                     sistemaReproductorM.PartSelected += SistemaPartSelected;
                     contentControlSistema.Content = sistemaReproductorM;
                     break;
+                case "Sistema circulatorio":
+                    ucSistemaCirculatorio sistemaCirculatorio = new ucSistemaCirculatorio();
+                    sistemaCirculatorio.PartSelected += SistemaPartSelected;
+                    contentControlSistema.Content = sistemaCirculatorio;
+                    break;
+                case "Sistema nervioso":
+                    ucSistemaNervioso sistemaNervioso = new ucSistemaNervioso();
+                    sistemaNervioso.PartSelected += SistemaPartSelected;
+                    contentControlSistema.Content = sistemaNervioso;
+                    break;
                 default:
                     break;
             }

@@ -1,0 +1,46 @@
+﻿<UserControl x:Class="WpfAppMahAppsIconPacks.UserControls.ucSistemaNervioso"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfAppMahAppsIconPacks.UserControls"
+             mc:Ignorable="d">
+    <UserControl.Resources>
+        <Style TargetType="Label">
+            <Setter Property="FontWeight" Value="DemiBold"/>
+            <Setter Property="FontSize" Value="10"/>
+            <Setter Property="Padding" Value="5 0"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Background" Value="White"/>
+            <EventSetter Event="MouseDown" Handler="Label_MouseDown"/>
+        </Style>
+    </UserControl.Resources>
+    <Grid Height="800" Width="500">
+        <Image Source="/Resources/Images/SistemaNerviosoMejorada.png"/>
+        <Label Content="Cerebro" Tag="Cerebro" Margin="397,20,9,759"/>
+        <Label Content="Cerebelo" Tag="Cerebelo" Margin="398,59,9,721"/>
+        <Label Content="Medula espinal" Tag="Medula espinal" Margin="398,87,12,694"/>
+        <Label Content="Nervios intercostales" Tag="Nervios intercostales" Margin="392,182,12,592"/>
+        <Label Content="Nervio subcostal" Tag="Nervio subcostal" Margin="385,252,13,533"/>
+        <Label Content="Plexo lumbar" Tag="Plexo lumbar" Margin="407,281,11,504"/>
+        <Label Content="Plexo sacro" Tag="Plexo sacro" Margin="409,322,8,463"/>
+        <Label Content="Nervio femoral" Tag="Nervio femoral" Margin="393,352,24,433"/>
+        <Label Content="Nervio pudendo" Tag="Nervio pudendo" Margin="391,377,10,408"/>
+        <Label Content="Nervio ciatico" Tag="Nervio ciatico" Margin="395,399,22,386"/>
+        <Label Content="Ramas musculares&#xD;&#xA;del nervio femoral" Tag="Ramas musculares del nervio femoral" Margin="364,485,38,285"/>
+        <Label Content="Nervio safeno" Tag="Nervio safeno" Margin="366,520,51,265"/>
+        <Label Content="Nervio tibial" Tag="Nervio tibial" Margin="367,546,50,239"/>
+        <Label Content="Nervio peroneo superficial" Tag="Nervio peroneo superficial" Margin="13,693,327,92" HorizontalContentAlignment="Right"/>
+        <Label Content="Nervio peroneo profundo" Tag="Nervio peroneo profundo" Margin="16,647,360,138" HorizontalContentAlignment="Right"/>
+        <Label Content="Nervio peroneo comun" Tag="Nervio peroneo comun" Margin="15,552,338,233" HorizontalContentAlignment="Right"/>
+        <Label Content="Nervio cubital" Tag="Nervio cubital" Margin="7,395,414,390" HorizontalContentAlignment="Right"/>
+        <Label Content="Nervio obturador" Tag="Nervio obturador" Margin="12,360,390,425" HorizontalContentAlignment="Right"/>
+        <Label Content="Nervio genitofemoral" Tag="Nervio genitofemoral" Margin="10,329,383,456" HorizontalContentAlignment="Right"/>
+        <Label Content="Nervio iliohipogástrico" Tag="Nervio iliohipogástrico" Margin="7,278,378,507" HorizontalContentAlignment="Right"/>
+        <Label Content="Nervio mediano" Tag="Nervio mediano" Margin="10,262,403,523" HorizontalContentAlignment="Right"/>
+        <Label Content="Nervio radial" Tag="Nervio radial" Margin="20,194,393,591" HorizontalContentAlignment="Right"/>
+        <Label Content="Nervio musculocutaneo" Tag="Nervio musculocutaneo" Margin="10,166,362,619" HorizontalContentAlignment="Right"/>
+        <Label Content="Plexo branquial" Tag="Plexo branquial" Margin="26,112,346,673" HorizontalContentAlignment="Right"/>
+    </Grid>
+</UserControl>

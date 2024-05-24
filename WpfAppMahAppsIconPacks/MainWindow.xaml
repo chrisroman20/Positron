@@ -42,6 +42,8 @@
                 <ComboBoxItem>Sistema tegumentario</ComboBoxItem>
                 <ComboBoxItem>Sistema urinario</ComboBoxItem>
                 <ComboBoxItem>Sistema reproductor masculino</ComboBoxItem>
+                <ComboBoxItem>Sistema circulatorio</ComboBoxItem>
+                <ComboBoxItem>Sistema nervioso</ComboBoxItem>
                 <!-- Agrega los demás sistemas aquí -->
             </ComboBox>
 

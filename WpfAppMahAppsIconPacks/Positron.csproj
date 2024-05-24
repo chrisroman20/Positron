@@ -78,6 +78,12 @@
     <Compile Include="CustomIcons\PackIconCustomIconsDataFactory.cs" />
     <Compile Include="CustomIcons\PackIconCustomIconsExtension.cs" />
     <Compile Include="CustomIcons\PackIconCustomIconsKind.cs" />
+    <Compile Include="UserControls\ucSistemaCirculatorio.xaml.cs">
+      <DependentUpon>ucSistemaCirculatorio.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucSistemaNervioso.xaml.cs">
+      <DependentUpon>ucSistemaNervioso.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\ucSistemaReproductorM.xaml.cs">
       <DependentUpon>ucSistemaReproductorM.xaml</DependentUpon>
     </Compile>
@@ -103,6 +109,14 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="UserControls\ucSistemaCirculatorio.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\ucSistemaNervioso.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="UserControls\ucSistemaReproductorM.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

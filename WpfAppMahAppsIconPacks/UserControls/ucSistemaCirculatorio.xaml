@@ -1,0 +1,66 @@
+﻿<UserControl x:Class="WpfAppMahAppsIconPacks.UserControls.ucSistemaCirculatorio"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfAppMahAppsIconPacks.UserControls"
+             mc:Ignorable="d">
+    <UserControl.Resources>
+        <Style TargetType="Label">
+            <Setter Property="FontWeight" Value="DemiBold"/>
+            <Setter Property="FontSize" Value="10"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Padding" Value="0"/>
+            <Setter Property="Background" Value="White"/>
+            <EventSetter Event="MouseDown" Handler="Label_MouseDown"/>
+        </Style>
+    </UserControl.Resources>
+
+    <Grid Height="700" Width="540">
+        <Image Source="/Resources/Images/SistemaCirculatorioMejorada.png"/>
+        <Label Content="Yugular externa"  Tag="Yugular externa" Margin="106,40,350,646" HorizontalContentAlignment="Right"/>
+        <Label Content="Yugular interna"  Tag="Yugular interna" Margin="99,60,357,626" HorizontalContentAlignment="Right"/>
+        <Label Content="Arteria subclavia"  Tag="Arteria subclavia" Margin="60,90,390,596" HorizontalContentAlignment="Right"/>
+        <Label Content="Arco aórtico" Tag="Arco aórtico" Margin="44,114,406,572" HorizontalContentAlignment="Right"/>
+        <Label Content="Arteria axilar" Tag="Arteria axilar" Margin="25,144,425,540" HorizontalContentAlignment="Right"/>
+        <Label Content="Arteria torácita interna" Tag="Arteria torácica interna" Margin="-11,170,428,516" HorizontalContentAlignment="Right"/>
+        <Label Content="Vena cava inferior" Tag="Vena cava inferior" Margin="4,196,412,489" HorizontalContentAlignment="Right"/>
+        <Label Content="Arteria braquial" Tag="Arteria braquial" Margin="5,220,412,464" HorizontalContentAlignment="Right"/>
+        <Label Content="Venas hepáticas" Tag="Venas hepáticas" Margin="44,243,404,442" HorizontalContentAlignment="Right"/>
+        <Label Content="Venas renales" Tag="Venas renales" Margin="15,289,433,397" HorizontalContentAlignment="Right"/>
+        <Label Content="Arteria epigástrica superior" Tag="Arteria epigástrica superior" Margin="0,311,404,373" HorizontalContentAlignment="Right"/>
+        <Label Content="Aorta descendente" Tag="Aorta descendente" Margin="2,355,438,331" HorizontalContentAlignment="Right"/>
+        <Label Content="Arteria radial" Tag="Arteria radial" Margin="6,404,434,282" HorizontalContentAlignment="Right"/>
+        <Label Content="Arteria cubital" Tag="Arteria cubital" Margin="14,432,426,254" HorizontalContentAlignment="Right"/>
+        <Label Content="Arteria tibial anterior" Tag="Arteria tibial anterior" Margin="86,570,339,115" HorizontalContentAlignment="Right"/>
+        <Label Content="Arteria tibial posterior" Tag="Arteria tibial posterior" Margin="90,612,336,74" HorizontalContentAlignment="Right"/>
+        <Label Content="Arteria cerebral anterior"  Tag="Arteria cerebral anterior" Margin="334,16,40,670"/>
+        <Label Content="Arteria cerebral media"  Tag="Arteria cerebral media" Margin="344,34,30,652"/>
+        <Label Content="Arteria cerebral posterior"  Tag="Arteria cerebral posterior" Margin="376,52,-2,634"/>
+        <Label Content="Arteria carótida externa"  Tag="Arteria carótida externa" Margin="350,68,24,618"/>
+        <Label Content="Arteria carótida interna"  Tag="Arteria carótida interna" Margin="353,87,21,600"/>
+        <Label Content="Arterias vertebrales"  Tag="Arterias vertebrales" Margin="347,108,27,579"/>
+        <Label Content="Arterias carótidas comunes"  Tag="Arterias carótidas comunes" Margin="394,132,-20,555"/>
+        <Label Content="Aorta" Tag="Aorta" Margin="399,158,107,529"/>
+        <Label Content="Venas pulmonares" Tag="Venas pulmonares" Margin="448,166,1,521"/>
+        <Label Content="Arterias pulmonares" Tag="Arterias pulmonares" Margin="446,183,-2,504"/>
+        <Label Content="Corazón" Tag="Corazón" Margin="408,197,91,490"/>
+        <Label Content="Venas cardiacas" Tag="Venas cardiacas" Margin="408,213,30,474"/>
+        <Label Content="Arterias intercostales" Tag="Arterias intercostales" Margin="429,232,9,455"/>
+        <Label Content="Tronco celiaco" Tag="Tronco ceciaco" Margin="431,249,7,438"/>
+        <Label Content="Arteria esplenica" Tag="Arteria esplenica" Margin="430,266,8,421"/>
+        <Label Content="Vena esplenica" Tag="Vena esplenica" Margin="430,281,8,406"/>
+        <Label Content="Arteria hepatica común" Tag="Arteria hepatica común" Margin="421,300,6,387"/>
+        <Label Content="Arteria mesentrica superior" Tag="Arteria mesentrica superior" Margin="411,320,0,367"/>
+        <Label Content="Arteria renal" Tag="Arteria renal" Margin="407,341,4,346"/>
+        <Label Content="Arteria mesentrica inferior" Tag="Arteria mesentrica inferior" Margin="408,369,10,318"/>
+        <Label Content="Arteria iliaca común" Tag="Arteria iliaca común" Margin="405,392,13,295"/>
+        <Label Content="Arteria testicular" Tag="Arteria testicular" Margin="404,419,14,268"/>
+        <Label Content="Arteria circunfleja femoral" Tag="Arteria circunfleja femoral" Margin="395,442,23,245"/>
+        <Label Content="Vena cava abdominal" Tag="Vena cava abdominal" Margin="380,459,38,228"/>
+        <Label Content="Vena femoral" Tag="Vena femoral" Margin="374,477,44,210"/>
+        <Label Content="Arteria femoral" Tag="Arteria femoral" Margin="368,505,50,182"/>
+        <Label Content="Arteria plopitea" Tag="Arteria plopitea" Margin="373,532,45,155"/>
+        <Label Content="Vena plopitea" Tag="Vena plopitea" Margin="368,556,50,131"/>
+    </Grid>
+</UserControl>
