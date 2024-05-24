@@ -87,6 +87,9 @@
     <Compile Include="UserControls\ucSistemaReproductorM.xaml.cs">
       <DependentUpon>ucSistemaReproductorM.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UserControls\ucSistemaRespiratorio.xaml.cs">
+      <DependentUpon>ucSistemaRespiratorio.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\ucSistemaTegumentario.xaml.cs">
       <DependentUpon>ucSistemaTegumentario.xaml</DependentUpon>
     </Compile>
@@ -118,6 +121,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="UserControls\ucSistemaReproductorM.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\ucSistemaRespiratorio.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

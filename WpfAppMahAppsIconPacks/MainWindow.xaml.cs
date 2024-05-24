@@ -47,6 +47,11 @@ namespace Positron
                     sistemaNervioso.PartSelected += SistemaPartSelected;
                     contentControlSistema.Content = sistemaNervioso;
                     break;
+                case "Sistema respiratorio":
+                    ucSistemaRespiratorio sistemaRespiratorio = new ucSistemaRespiratorio();
+                    sistemaRespiratorio.PartSelected += SistemaPartSelected;
+                    contentControlSistema.Content = sistemaRespiratorio;
+                    break;
                 default:
                     break;
             }

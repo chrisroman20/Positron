@@ -44,6 +44,7 @@
                 <ComboBoxItem>Sistema reproductor masculino</ComboBoxItem>
                 <ComboBoxItem>Sistema circulatorio</ComboBoxItem>
                 <ComboBoxItem>Sistema nervioso</ComboBoxItem>
+                <ComboBoxItem>Sistema respiratorio</ComboBoxItem>
                 <!-- Agrega los demás sistemas aquí -->
             </ComboBox>
 
